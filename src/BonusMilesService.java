@@ -1,6 +1,6 @@
 public class BonusMilesService {
-    public int calculate(int price, int Coefficient) {
-        int miles = ((price / Coefficient) > 0) ? (price / Coefficient) : 0;
+    public int calculate(int price) {
+        int miles = ((price / 20) > 0) ? (price / 20) : 0;
         return miles;
     }
 }
